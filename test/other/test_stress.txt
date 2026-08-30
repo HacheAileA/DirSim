@@ -1,0 +1,42 @@
+mkdir L1
+cd L1
+mkdir L2
+cd L2
+mkdir L3
+cd L3
+mkdir L4
+cd L4
+mkdir L5
+cd L5
+touch deepfile
+pwd
+print
+cd
+cd L1/L2/L3/L4/L5
+pwd
+touch anotherfile
+ls
+cd /L1/L2/L3
+ls
+cd
+mkdir Wide1
+mkdir Wide2
+mkdir Wide3
+mkdir Wide4
+mkdir Wide5
+touch f1
+touch f2
+touch f3
+touch f4
+touch f5
+ls
+print
+rm Wide3
+rm f3
+ls
+print
+cp Wide1 /Wide1Copy
+cp Wide2 /Wide2Copy
+mv Wide4 /L1/Wide4
+mv Wide5 /L1/L2/Wide5
+print

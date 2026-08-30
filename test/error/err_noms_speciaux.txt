@@ -1,0 +1,8 @@
+mkdir mon-dossier
+mkdir mon dossier
+mkdir mon/dossier
+touch mon.fichier
+touch mon fichier
+touch @fichier
+mkdir 123
+touch 456

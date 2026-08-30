@@ -1,0 +1,21 @@
+image: gcc:latest
+
+stages:
+  - make
+  - valgrind
+
+make:
+  stage: make
+  script:
+    - make all
+  artifacts:
+    paths:
+      - bin/
+
+valgrind:
+  stage: valgrind
+  before_script:
+    - apt-get update -y
+    - apt-get install -y valgrind
+  script:
+    - valgrind --leak-check=full --error-exitcode=1 ./bin/main ./test/other/test_stress.txt

@@ -1,0 +1,18 @@
+mkdir A
+mkdir
+touch
+rm
+cp
+mv
+cp A
+mv A
+mkdir A B C
+touch f1 f2
+rm A B
+cd A B
+mkdir A
+   mkdir B
+mkdir	C
+mkdir A
+touch A
+ 

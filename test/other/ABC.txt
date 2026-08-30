@@ -1,0 +1,22 @@
+mkdir A
+cd A
+mkdir A
+cd
+touch B
+touch C
+mkdir D
+cd D
+touch A
+cd
+mkdir ABC
+cd ABC
+touch ABC
+
+find A
+find -d
+find -f
+find -d A
+find -f A
+find A*
+find A?B
+find *A*

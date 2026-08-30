@@ -1,0 +1,20 @@
+mkdir Src
+cd Src
+touch f1
+touch f2
+mkdir Sub
+cd Sub
+touch f3
+cd
+print
+cp Src /SrcCopie
+print
+mkdir Dst
+cp /Src/Sub /Dst/SubCopie
+print
+cd Src
+cp /Src/Sub /Src/SubCopie2
+print
+cd
+cp /Src/Sub /SrcCopie/SubDansCopie
+print

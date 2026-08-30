@@ -1,0 +1,9 @@
+mkdir A
+cd A
+mkdir B
+cd B
+mv /A /A/B/AInfinite
+mv /A/B /A/B/BInfinite
+cd
+mv inexistant /Copie
+mv A /A/B/AInfinite

@@ -1,0 +1,6 @@
+pwd
+ls
+print
+cd ..
+cd
+cd ..

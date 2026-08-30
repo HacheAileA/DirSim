@@ -1,0 +1,26 @@
+mkdir A
+mkdir B
+cd A
+mkdir A1
+mkdir A2
+cd A1
+mkdir A1a
+cd
+cd B
+mkdir B1
+cd B1
+mkdir B1a
+cd
+print
+cd A/A1
+pwd
+cd /B/B1
+pwd
+cd ../../A
+pwd
+cd /A/A2
+pwd
+cd ..
+pwd
+cd /
+pwd

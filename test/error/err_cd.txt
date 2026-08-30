@@ -1,0 +1,7 @@
+mkdir A
+cd A
+touch f1
+cd f1
+cd inexistant
+cd /inexistant
+cd /A/inexistant

@@ -1,0 +1,19 @@
+mkdir Cours
+cd Cours
+mkdir ProjetC
+mkdir ProjetJava
+touch projetnotes
+cd
+mkdir Td
+cd Td
+touch td1
+touch td2
+touch courstd
+cd
+touch cours
+print
+find Cours
+find cours
+find td1
+find inexistant
+find ProjetC

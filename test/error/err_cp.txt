@@ -1,0 +1,10 @@
+mkdir A
+cd A
+mkdir B
+touch f1
+cd
+cp inexistant /Copie
+cp A /A/B/CopieInfinite
+cp A /A/CopieInfinite
+cp A/f1 /A/B/f1
+cp A /A/f1/souscopie

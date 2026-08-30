@@ -1,0 +1,28 @@
+mkdir EA4
+cd EA4
+mkdir Cours
+mkdir TD
+cd TD
+touch td1pdf
+touch td2pdf
+touch td2txt
+
+cd
+
+mkdir LC4
+cd LC4
+mkdir TP
+cd TP
+touch tp1pdf
+touch tp2pdf
+
+cd
+
+cp EA4/TD LC4
+
+cd LC4
+mkdir Travaux
+mv TP Travaux
+mv TD Travaux
+ls
+

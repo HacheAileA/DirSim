@@ -1,0 +1,28 @@
+mkdir A
+cd A
+mkdir A1
+touch f1
+touch f2
+cd A1
+touch f3
+cd
+print
+rm A/A1/f3
+print
+rm A/f1
+print
+cd A
+rm f2
+print
+cd
+rm A/A1
+print
+mkdir B
+cd B
+mkdir B1
+cd B1
+rm /B
+rm /B/B1
+cd
+rm B
+print

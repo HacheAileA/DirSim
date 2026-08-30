@@ -1,0 +1,13 @@
+mkdir CI2
+cd CI2
+mkdir TD
+
+cd
+
+mkdir IP2
+cd IP2
+mkdir TD
+
+cd
+
+mv CI2/TD IP2

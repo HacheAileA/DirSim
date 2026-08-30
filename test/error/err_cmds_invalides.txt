@@ -1,0 +1,7 @@
+mkdir A
+bonjour
+toto A
+rmdir A
+ls -la
+CD A
+MKDIR B

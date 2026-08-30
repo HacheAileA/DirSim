@@ -1,0 +1,9 @@
+mkdir A
+cd A
+mkdir B
+cd B
+rm /A/B
+rm /A
+cd
+rm inexistant
+rm /

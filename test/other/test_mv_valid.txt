@@ -1,0 +1,23 @@
+mkdir A
+cd A
+touch f1
+mkdir B
+cd B
+touch f2
+cd
+print
+mv A/f1 /f1_moved
+print
+mv A/B /B_moved
+print
+mkdir C
+cd C
+mkdir D
+cd
+mv /B_moved /C/D/B_in_D
+print
+cd C/D/B_in_D
+pwd
+cd
+mv C /A/C_in_A
+print
